@@ -1,0 +1,21 @@
+{
+  "name": "pulse-monitor",
+  "version": "1.0.20191101",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.6.0",
+    "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "mongodb": "^3.3.4",
+    "request": "^2.88.2"
+  }
+}
