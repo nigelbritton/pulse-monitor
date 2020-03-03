@@ -11,7 +11,7 @@ var Pulse = require('./index');
 Pulse.init();
 Pulse.addProfile({
     name: 'Example Website',
-    url: 'https://www.example.com/',
+    url: 'https://www.doesnotexistsurltest.com/',
     status: 'publish',
 });
 Pulse.buildQueue();
