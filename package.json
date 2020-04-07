@@ -15,6 +15,7 @@
     "mocha": "^6.2.2"
   },
   "dependencies": {
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.3.4",
     "request": "^2.88.2"
   }
