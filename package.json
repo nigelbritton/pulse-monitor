@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "debug-application": "DEBUG=pulse-monitor* node index.js",
     "lint": "eslint .",
     "test": "mocha"
   },
@@ -15,8 +17,12 @@
     "mocha": "^6.2.2"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.3.4",
     "request": "^2.88.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
